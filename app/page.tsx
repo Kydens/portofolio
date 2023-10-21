@@ -1,4 +1,4 @@
-import { About, Experience, Homepage, Projects } from "@/components"
+import { About, Experience, Homepage } from "@/components"
 
 export default function Home() {
 
