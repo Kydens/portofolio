@@ -1,0 +1,6 @@
+color: {
+    'primary-color': '#113946',
+    'secondary-color': '#EAD7BB',
+    'accent-color': '#EAD7BB',
+    'font-color': '113946',
+},
