@@ -10,7 +10,7 @@ body,
   color-scheme: dark;
 }
 
-body::-webkit-scrollbar{
+.no-scrollbar::-webkit-scrollbar{
   display: none;
 }
 
