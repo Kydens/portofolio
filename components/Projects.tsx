@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { AiOutlineLeft, AiOutlineRight } from 'react-icons/ai'
 import Swipe from 'react-easy-swipe';
 import Image from 'next/image';
-import { cat, killua, profile } from '@/assets';
+import { dummy } from '@/assets';
 
 interface ProjectsProps {
     style: string;
@@ -16,15 +16,15 @@ const Projects: React.FC<ProjectsProps> = ({ style }) => {
     const slides = [
         {
             id: 0,
-            slide: profile
+            slide: dummy
         },
         {
             id: 1,
-            slide: cat
+            slide: dummy
         },
         {
             id: 2,
-            slide: killua
+            slide: dummy
         }
     ]
 
