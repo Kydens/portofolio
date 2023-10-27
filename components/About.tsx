@@ -29,9 +29,9 @@ const About: React.FC<AboutProps> = ({ style }) => {
                     <p className='font-bold text-2xl my-2'>About Me</p>
                     <p className='text-justify'>I am an ambitious and responsible student. Currently pursuing an undergraduate education at Tarumanegara University majoring in Informatics. I want to be a website developer and usually using Javascript with Tailwind CSS. Also, I able to build communication and work together in a team.</p>
                     <div className='flex flex-row gap-x-3 my-4  '>
-                        <Link href={'https://www.github.com'} target={'_blank'}><MarkGithubIcon size={24} /></Link>
-                        <Link href={'https://www.linkedin.com'} target={'_blank'}><FaLinkedin size={24} /></Link>
-                        <Link href={'https://www.leetcode.com'} target={'_blank'}><SiLeetcode size={24} /></Link>
+                        <Link href={'https://www.github.com/Kydens'} target={'_blank'}><MarkGithubIcon size={24} /></Link>
+                        <Link href={'https://www.linkedin.com/in/eddy-nathansyah/'} target={'_blank'}><FaLinkedin size={24} /></Link>
+                        <Link href={'https://www.leetcode.com/Kydens/'} target={'_blank'}><SiLeetcode size={24} /></Link>
                     </div>
                 </div>
             </div>

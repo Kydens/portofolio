@@ -10,7 +10,7 @@ const Sidebar: React.FC<SidebarProps> = ({ children }) => {
     return (
         <div className='h-full flex'>
             <div className='hidden lg:flex fixed hover:left-0 hover:transition-all transition-all left-[-100px] h-full w-max'>
-                <div className='h-full w-[100px] bg-slate-900 flex flex-col items-center gap-y-5 py-5'>
+                <div className='h-full w-[100px] bg-emerald-600 flex flex-col items-center gap-y-5 py-5'>
                     <p>Home</p>
                     <p>About</p>
                     <p>Experience</p>
