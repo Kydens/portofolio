@@ -8,11 +8,7 @@ import {
 } from 'react-icons/bi'
 import { SiNextdotjs } from 'react-icons/si'
 
-interface SkillsProps {
-    style: string
-}
-
-const Skills: React.FC<SkillsProps> = ({ style }) => {
+const Skills = () => {
     return (
         <div className={
             `w-full h-full flex justify-center items-center

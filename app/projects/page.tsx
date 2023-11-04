@@ -5,11 +5,7 @@ import Swipe from 'react-easy-swipe';
 import Image from 'next/image';
 import { dummy } from '@/assets';
 
-interface ProjectsProps {
-    style: string;
-}
-
-const Projects: React.FC<ProjectsProps> = ({ style }) => {
+const Projects = () => {
 
     const [currentSlide, setCurrentSlide] = useState(0);
 

@@ -1,9 +1,6 @@
 import React from 'react'
-interface ExperienceProps {
-    style: string;
-}
 
-const Experience: React.FC<ExperienceProps> = ({ style }) => {
+const Experience = () => {
     return (
         <>
             {/* Mobile View */}

@@ -7,11 +7,7 @@ import { MarkGithubIcon } from '@primer/octicons-react'
 import { FaLinkedin } from 'react-icons/fa'
 import { SiLeetcode } from 'react-icons/si'
 
-interface AboutProps {
-    style: string;
-}
-
-const About: React.FC<AboutProps> = ({ style }) => {
+const About = () => {
     return (
         <div className={`
             flex flex-row h-screen w-full justify-center items-center
