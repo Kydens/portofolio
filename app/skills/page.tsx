@@ -16,7 +16,7 @@ const Skills: React.FC<SkillsProps> = ({ style }) => {
     return (
         <div className={
             `w-full h-full flex justify-center items-center
-            ${style}
+            bg-gradient-to-t from-[#e7e4dc] from-85% to-[#e3ebee] to-96% text-black
         `}>
             <div className='w-2/4 flex flex-row items-center justify-evenly gap-x-10'>
                 <div className='flex flex-col w-1/2 gap-y-5'>

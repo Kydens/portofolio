@@ -41,7 +41,7 @@ const Projects: React.FC<ProjectsProps> = ({ style }) => {
     return (
         <div className={`
             flex flex-col h-full w-full py-32
-            ${style}
+            bg-gradient-to-t from-[#e3ebee] from-85% to-[#f0ece2] to-100% text-black
         `}>
             <h1 className='flex justify-center text-2xl font-extrabold'>Projects</h1>
             <div className='flex flex-row h-full w-full items-center lg:px-32'>

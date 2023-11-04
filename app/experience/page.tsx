@@ -9,7 +9,7 @@ const Experience: React.FC<ExperienceProps> = ({ style }) => {
             {/* Mobile View */}
             <div className={`
                 lg:hidden w-full h-full flex flex-col items-center px-10 justify-center
-                ${style}
+                bg-gradient-to-b from-[#e7e4dc] from-90% to-[#e3ebee] to-100% text-black
             `}>
                 <div className='mb-5'>
                     <h2 className='text-2xl font-extrabold'>Experience</h2>
@@ -39,7 +39,7 @@ const Experience: React.FC<ExperienceProps> = ({ style }) => {
             {/* View up to 1024px */}
             <div className={`
                 hidden lg:flex w-full h-full flex-col items-center px-10 justify-center
-                ${style}
+                bg-gradient-to-b from-[#e7e4dc] from-90% to-[#e3ebee] to-100% text-black
             `}>
                 <div className='mb-5'>
                     <h2 className='text-2xl font-extrabold'>Experience</h2>

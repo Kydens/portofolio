@@ -15,14 +15,14 @@ const About: React.FC<AboutProps> = ({ style }) => {
     return (
         <div className={`
             flex flex-row h-screen w-full justify-center items-center
-            ${style}
+            bg-gradient-to-b from-[#e3ebee] from-85% to-[#f0ece2] to-100% text-black
         `}
         >
             <div className='lg:flex w-2/4 gap-x-6'>
                 <Image
                     src={profile}
                     alt='Profile image'
-                    width={215}
+                    width={250}
                     className='rounded-full'
                 />
                 <div className='flex flex-col justify-center'>
